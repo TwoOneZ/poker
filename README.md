@@ -60,7 +60,7 @@ def test_best_hand():
             == ['8C', '8S', 'TC', 'TD', 'TH'])
     assert (sorted(best_hand("JD TC TH 7C 7D 7S 7H".split()))
             == ['7C', '7D', '7H', '7S', 'JD'])
-    print('OK')
+    print('Done')
 
 
 def test_best_wild_hand():
@@ -71,7 +71,7 @@ def test_best_wild_hand():
             == ['7C', 'TC', 'TD', 'TH', 'TS'])
     assert (sorted(best_wild_hand("JD TC TH 7C 7D 7S 7H".split()))
             == ['7C', '7D', '7H', '7S', 'JD'])
-    print('OK')
+    print('Done')
 ```
 
 Результаты:
